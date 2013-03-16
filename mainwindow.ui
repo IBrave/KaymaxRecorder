@@ -2147,7 +2147,10 @@ border-bottom-color:#375267;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QDial::handle { color: red }</string>
+     <string notr="true">QDial{
+background:yellow;
+}
+QDial::handle { color: red }</string>
     </property>
     <property name="maximum">
      <number>120</number>
